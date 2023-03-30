@@ -1,10 +1,10 @@
-<ion-content *ngIf="allCharacters">
+<ion-content *ngIf="allCharacter">
   <ion-list>
     <ion-list-header>
       Listado de personajes
     </ion-list-header>
 
-    <ion-item *ngFor = "let character of allCharacters.results ">
+    <ion-item *ngFor = "let character of allCharacter.results ">
       <ion-avatar slot="start">
         <img [src]="character.image">
       </ion-avatar>

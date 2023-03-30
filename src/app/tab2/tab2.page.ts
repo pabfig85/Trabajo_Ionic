@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ExploreContainerComponent } from '../explore-container/explore-container.component';
 
 @Component({
   selector: 'app-tab2',
